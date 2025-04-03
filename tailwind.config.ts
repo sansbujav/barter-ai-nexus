@@ -21,7 +21,7 @@ export default {
     extend: {
       colors: {
         // BarterNet colors - updated to dark gray
-        primary: "#1A1F2C", // Dark Gray (was Dark Blue)
+        primary: "#1A1F2C", // Dark Gray
         secondary: "#FF6F61", // Vibrant Orange (keeping the same)
         accent: "#FFD700", // Bright Yellow (keeping the same)
         background: "#121417", // Darker Black/Gray

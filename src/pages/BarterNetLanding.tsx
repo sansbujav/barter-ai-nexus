@@ -17,9 +17,11 @@ const BarterNetLanding = () => {
   // Create cosmic stars background
   useEffect(() => {
     const createCosmicBackground = () => {
-      const stars = [];
+      const stars: HTMLDivElement[] = [];
       const starsCount = 100;
       const container = document.querySelector('body');
+      
+      if (!container) return [];
       
       // Remove existing stars if any
       const existingStars = document.querySelectorAll('.cosmic-star-bg');
@@ -36,7 +38,7 @@ const BarterNetLanding = () => {
         star.style.height = `${size}px`;
         star.style.backgroundColor = 'white';
         star.style.borderRadius = '50%';
-        star.style.opacity = Math.random() * 0.5 + 0.1;
+        star.style.opacity = `${Math.random() * 0.5 + 0.1}`; // Convert to string
         star.style.left = `${Math.random() * 100}vw`;
         star.style.top = `${Math.random() * 100}vh`;
         star.style.zIndex = '-1';

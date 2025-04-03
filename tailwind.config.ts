@@ -20,11 +20,11 @@ export default {
     },
     extend: {
       colors: {
-        // BarterNet colors
-        primary: "#1A2A44", // Dark Blue
-        secondary: "#FF6F61", // Vibrant Orange
-        accent: "#FFD700", // Bright Yellow
-        background: "#000000", // Black
+        // BarterNet colors - updated to dark gray
+        primary: "#1A1F2C", // Dark Gray (was Dark Blue)
+        secondary: "#FF6F61", // Vibrant Orange (keeping the same)
+        accent: "#FFD700", // Bright Yellow (keeping the same)
+        background: "#121417", // Darker Black/Gray
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -85,7 +85,7 @@ export default {
         float: 'float 6s ease-in-out infinite',
       },
       backgroundImage: {
-        'cosmic-gradient': 'radial-gradient(ellipse at center, rgba(26, 42, 68, 0.8) 0%, rgba(0, 0, 0, 1) 70%)',
+        'cosmic-gradient': 'radial-gradient(ellipse at center, rgba(26, 31, 44, 0.8) 0%, rgba(18, 20, 23, 1) 70%)',
       },
     },
   },

@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection';
 import OfferSection from '../components/OfferSection';
 import HowItWorksSection from '../components/HowItWorksSection';
 import FeaturesSection from '../components/FeaturesSection';
+import ExamplesSection from '../components/ExamplesSection';
 import CtaSection from '../components/CtaSection';
 import Footer from '../components/Footer';
 
@@ -65,6 +66,7 @@ const BarterNetLanding = () => {
         <HeroSection translations={t.hero} />
         <OfferSection translations={t.offer} />
         <HowItWorksSection translations={t.howItWorks} />
+        <ExamplesSection translations={t.examples} />
         <FeaturesSection translations={t.features} />
         <CtaSection translations={t.cta} />
         <Footer translations={t.footer} />

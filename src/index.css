@@ -23,7 +23,7 @@
 
   body {
     @apply bg-background text-white font-inter;
-    background: linear-gradient(to bottom, #1A2A44, #000000);
+    background: linear-gradient(to bottom, #1A1F2C, #121417);
     background-attachment: fixed;
     overflow-x: hidden;
   }
@@ -65,7 +65,7 @@
   }
   
   .cosmic-bg {
-    background-image: radial-gradient(ellipse at center, rgba(26, 42, 68, 0.8) 0%, rgba(0, 0, 0, 1) 70%);
+    background-image: radial-gradient(ellipse at center, rgba(26, 31, 44, 0.8) 0%, rgba(18, 20, 23, 1) 70%);
     position: fixed;
     top: 0;
     left: 0;

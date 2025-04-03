@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import HeroSection from '../components/HeroSection';
 import OfferSection from '../components/OfferSection';
 import HowItWorksSection from '../components/HowItWorksSection';
+import ExamplesSection from '../components/ExamplesSection';
 import FeaturesSection from '../components/FeaturesSection';
 import CtaSection from '../components/CtaSection';
 import Footer from '../components/Footer';
@@ -97,6 +98,7 @@ export default function Home() {
         <HeroSection translations={t.hero} />
         <OfferSection translations={t.offer} />
         <HowItWorksSection translations={t.howItWorks} />
+        <ExamplesSection translations={t.examples} />
         <FeaturesSection translations={t.features} />
         <CtaSection translations={t.cta} />
         <Footer translations={t.footer} />

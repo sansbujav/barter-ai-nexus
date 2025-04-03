@@ -22,6 +22,27 @@
       "description": "Pay with cash, barter with your skills, or offer something unique like equity."
     }
   },
+  "examples": {
+    "title": "See BarterNet in Action",
+    "description": "Discover how our AI-powered platform connects people, projects, and products seamlessly. Here are real examples of how BarterNet works:",
+    "userQueryLabel": "User Request",
+    "systemResponseLabel": "BarterNet Response",
+    "example1": {
+      "title": "Find a Service Provider",
+      "userQuery": "I need a backend developer who knows Node.js, MongoDB, and has experience building payment systems. Available to start next week for a 3-month project.",
+      "systemResponse": "Found: Mikhail G.\nExpert backend developer with 5 years of experience in Node.js and MongoDB. Has built 4 payment systems including integration with Stripe and PayPal. Available from Monday for remote work.\n\nSkills matched: Node.js, MongoDB, Payment systems\nExperience level: Senior (5+ years)\nAvailability: ✓ Matches your timeline\n\nWould you like to connect with Mikhail?"
+    },
+    "example2": {
+      "title": "Describe a Project",
+      "userQuery": "I want to build an online marketplace for handmade crafts where artisans can sell directly to customers. The platform should handle payments, shipping, and allow customers to leave reviews.",
+      "systemResponse": "Based on your project, you'll need:\n\n1. Frontend Developer (React/UI expertise)\n2. Backend Developer (API/database architecture)\n3. Payment Systems Specialist\n4. UI/UX Designer\n\nFound 6 matching professionals who can form your project team. The AI has analyzed your project requirements and found specialists with marketplace and e-commerce experience.\n\nWould you like to view the recommended team or adjust your project requirements?"
+    },
+    "example3": {
+      "title": "Find a Product",
+      "userQuery": "I need a high-quality audio system for my home office that won't disturb people in adjacent rooms. My budget is around $1000.",
+      "systemResponse": "Found 3 matching products:\n\n1. Sony WH-1000XM4 Studio Monitor Headphones\n   Price: $349 | Seller: AudioPhile Store | Rating: ★★★★★\n   Perfect for isolated listening without sound leakage.\n\n2. Sonos Beam (Gen 2) + 2x Sonos One SL\n   Price: $897 | Seller: TechConnect | Rating: ★★★★☆\n   Compact, room-filling sound with adjustable volume for office use.\n\n3. Bose QuietComfort Earbuds + Desktop DAC\n   Price: $379 | Seller: SoundWave | Rating: ★★★★½\n   Ultra-portable, noise-canceling solution for pristine audio.\n\nWould you like more details on any of these options?"
+    }
+  },
   "howItWorks": {
     "title": "How BarterNet Works",
     "step1": {

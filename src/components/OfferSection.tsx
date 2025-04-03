@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-const OfferSection = ({ translations }) => {
+const OfferSection = ({ translations }: { translations: any }) => {
   const [ref, inView] = useInView({
     threshold: 0.1,
     triggerOnce: true,
@@ -59,7 +59,7 @@ const OfferSection = ({ translations }) => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <motion.div 
             variants={fadeIn}
-            className="card-hover bg-primary/40 backdrop-blur-md rounded-xl border border-white/10 p-6 overflow-hidden relative"
+            className="card-hover bg-primary/40 backdrop-blur-md rounded-xl border border-white/10 p-6 overflow-hidden relative glass-card"
           >
             <div className="absolute top-0 right-0 w-24 h-24 bg-secondary/20 rounded-full -mr-10 -mt-10"></div>
             <div className="relative z-10">
@@ -73,15 +73,22 @@ const OfferSection = ({ translations }) => {
               <h3 className="text-xl font-orbitron font-bold mb-3 text-white">
                 {translations.card1.title}
               </h3>
-              <p className="text-white/80">
+              <p className="text-white/80 mb-4">
                 {translations.card1.description}
               </p>
+              <div className="mt-4 rounded-lg overflow-hidden image-glow">
+                <img 
+                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
+                  alt="Create listings" 
+                  className="w-full h-32 object-cover rounded-lg"
+                />
+              </div>
             </div>
           </motion.div>
 
           <motion.div 
             variants={fadeIn}
-            className="card-hover bg-primary/40 backdrop-blur-md rounded-xl border border-white/10 p-6 overflow-hidden relative"
+            className="card-hover bg-primary/40 backdrop-blur-md rounded-xl border border-white/10 p-6 overflow-hidden relative glass-card"
           >
             <div className="absolute top-0 right-0 w-24 h-24 bg-accent/20 rounded-full -mr-10 -mt-10"></div>
             <div className="relative z-10">
@@ -94,15 +101,22 @@ const OfferSection = ({ translations }) => {
               <h3 className="text-xl font-orbitron font-bold mb-3 text-white">
                 {translations.card2.title}
               </h3>
-              <p className="text-white/80">
+              <p className="text-white/80 mb-4">
                 {translations.card2.description}
               </p>
+              <div className="mt-4 rounded-lg overflow-hidden image-glow">
+                <img 
+                  src="https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
+                  alt="Find opportunities" 
+                  className="w-full h-32 object-cover rounded-lg"
+                />
+              </div>
             </div>
           </motion.div>
 
           <motion.div 
             variants={fadeIn}
-            className="card-hover bg-primary/40 backdrop-blur-md rounded-xl border border-white/10 p-6 overflow-hidden relative"
+            className="card-hover bg-primary/40 backdrop-blur-md rounded-xl border border-white/10 p-6 overflow-hidden relative glass-card"
           >
             <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -mr-10 -mt-10"></div>
             <div className="relative z-10">
@@ -115,9 +129,16 @@ const OfferSection = ({ translations }) => {
               <h3 className="text-xl font-orbitron font-bold mb-3 text-white">
                 {translations.card3.title}
               </h3>
-              <p className="text-white/80">
+              <p className="text-white/80 mb-4">
                 {translations.card3.description}
               </p>
+              <div className="mt-4 rounded-lg overflow-hidden image-glow">
+                <img 
+                  src="https://images.unsplash.com/photo-1565384257472-896ee0368774?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
+                  alt="Exchange value" 
+                  className="w-full h-32 object-cover rounded-lg"
+                />
+              </div>
             </div>
           </motion.div>
         </div>

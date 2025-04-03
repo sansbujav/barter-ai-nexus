@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { Button } from './ui/button';
 
 type ExampleType = 'service' | 'project' | 'product';
 
@@ -82,7 +83,7 @@ const ExamplesSection = ({ translations }: { translations: any }) => {
   return (
     <section ref={ref} id="examples" className="py-20 px-4 bg-background relative overflow-hidden">
       {/* Background decorative elements */}
-      <div className="absolute inset-0 opacity-5">
+      <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 right-10 w-64 h-64 rounded-full border border-secondary/30"></div>
         <div className="absolute bottom-10 left-10 w-48 h-48 rounded-full border border-accent/30"></div>
       </div>
@@ -109,7 +110,7 @@ const ExamplesSection = ({ translations }: { translations: any }) => {
               variants={fadeIn}
               className={`px-6 py-3 rounded-full border ${
                 activeExample === example.id 
-                  ? 'bg-secondary text-white border-secondary' 
+                  ? 'btn-primary border-none' 
                   : 'bg-primary/50 text-white/70 border-white/10 hover:bg-primary/70'
               } transition-all duration-300 flex items-center gap-2`}
               onClick={() => setActiveExample(example.id)}
@@ -125,7 +126,7 @@ const ExamplesSection = ({ translations }: { translations: any }) => {
         {/* Example showcase */}
         <motion.div 
           variants={fadeIn}
-          className="bg-primary/40 backdrop-blur-md rounded-xl border border-white/10 overflow-hidden"
+          className="bg-primary/40 backdrop-blur-md rounded-xl border border-white/10 overflow-hidden glass-card"
         >
           {examples.map((example) => (
             <div 
@@ -149,6 +150,34 @@ const ExamplesSection = ({ translations }: { translations: any }) => {
                   <div className="bg-background/50 rounded-lg p-4 border border-white/5">
                     <p className="text-white/90 whitespace-pre-line">{example.userQuery}</p>
                   </div>
+                  {/* Add image for visual context */}
+                  {example.id === 1 && (
+                    <div className="mt-4 rounded-lg overflow-hidden image-glow">
+                      <img 
+                        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
+                        alt="Service example" 
+                        className="w-full h-40 object-cover rounded-lg border border-white/10"
+                      />
+                    </div>
+                  )}
+                  {example.id === 2 && (
+                    <div className="mt-4 rounded-lg overflow-hidden image-glow">
+                      <img 
+                        src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
+                        alt="Project example" 
+                        className="w-full h-40 object-cover rounded-lg border border-white/10"
+                      />
+                    </div>
+                  )}
+                  {example.id === 3 && (
+                    <div className="mt-4 rounded-lg overflow-hidden image-glow">
+                      <img 
+                        src="https://images.unsplash.com/photo-1558655146-364adaf1fcc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1464&q=80" 
+                        alt="Product example" 
+                        className="w-full h-40 object-cover rounded-lg border border-white/10"
+                      />
+                    </div>
+                  )}
                 </div>
 
                 {/* System response side */}
@@ -166,6 +195,19 @@ const ExamplesSection = ({ translations }: { translations: any }) => {
                   </div>
                   <div className="bg-background/50 rounded-lg p-4 border border-white/5">
                     <p className="text-white/90 whitespace-pre-line">{example.systemResponse}</p>
+                  </div>
+                  <div className="mt-6 flex justify-end">
+                    <button 
+                      className="btn-primary btn-small"
+                      onClick={() => {
+                        // Here we would handle the action, for now just console log
+                        console.log(`Action taken on example ${example.id}`);
+                        // Show the next example
+                        setActiveExample(example.id % 3 + 1);
+                      }}
+                    >
+                      {example.id === 1 ? 'Find Services' : example.id === 2 ? 'Start Project' : 'Find Products'}
+                    </button>
                   </div>
                 </div>
               </div>

@@ -19,7 +19,7 @@ const BarterNetLanding = () => {
   useEffect(() => {
     const createCosmicBackground = () => {
       const stars: HTMLDivElement[] = [];
-      const starsCount = 100;
+      const starsCount = 150; // Increased star count for more vibrant background
       const container = document.querySelector('body');
       
       if (!container) return [];

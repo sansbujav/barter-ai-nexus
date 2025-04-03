@@ -1,7 +1,7 @@
 
 import LanguageSwitcher from './LanguageSwitcher';
 
-const Footer = ({ translations }) => {
+const Footer = ({ translations }: { translations: any }) => {
   return (
     <footer className="bg-primary py-12 px-4 border-t border-white/10">
       <div className="container mx-auto max-w-6xl">

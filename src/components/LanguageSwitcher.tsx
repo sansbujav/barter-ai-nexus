@@ -1,11 +1,9 @@
 
-import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 
 const LanguageSwitcher = () => {
-  const router = useRouter();
-  const { locale, pathname, query, asPath } = router;
   const [isOpen, setIsOpen] = useState(false);
+  const [currentLanguage, setCurrentLanguage] = useState('en');
 
   const languages = [
     { code: 'en', name: 'English' },
@@ -16,24 +14,24 @@ const LanguageSwitcher = () => {
   ];
 
   const getCurrentLanguageName = () => {
-    const currentLang = languages.find((lang) => lang.code === locale);
+    const currentLang = languages.find((lang) => lang.code === currentLanguage);
     return currentLang ? currentLang.name : 'English';
   };
 
-  const changeLanguage = (code) => {
+  const changeLanguage = (code: string) => {
     // Save to localStorage for persistence
     localStorage.setItem('preferredLanguage', code);
-    
-    // Change route to the new locale
-    router.push({ pathname, query }, asPath, { locale: code });
+    setCurrentLanguage(code);
     setIsOpen(false);
+    // Here you would typically update your app's context with the new language
+    // For example: i18n.changeLanguage(code);
   };
 
   // Check for stored language preference on mount
   useEffect(() => {
     const storedLanguage = localStorage.getItem('preferredLanguage');
-    if (storedLanguage && storedLanguage !== locale) {
-      router.push({ pathname, query }, asPath, { locale: storedLanguage });
+    if (storedLanguage) {
+      setCurrentLanguage(storedLanguage);
     }
   }, []);
 
@@ -63,7 +61,7 @@ const LanguageSwitcher = () => {
                 <button
                   onClick={() => changeLanguage(language.code)}
                   className={`block w-full text-left px-4 py-2 text-sm hover:bg-white/10 transition-colors ${
-                    locale === language.code ? 'text-accent' : 'text-white'
+                    currentLanguage === language.code ? 'text-accent' : 'text-white'
                   }`}
                 >
                   {language.name}

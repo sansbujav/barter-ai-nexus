@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-const CtaSection = ({ translations }) => {
+const CtaSection = ({ translations }: { translations: any }) => {
   const [ref, inView] = useInView({
     threshold: 0.1,
     triggerOnce: true,
@@ -25,7 +25,7 @@ const CtaSection = ({ translations }) => {
     transition: {
       duration: 2,
       repeat: Infinity,
-      repeatType: "loop"
+      repeatType: "loop" as const
     }
   };
 

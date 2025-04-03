@@ -1,0 +1,74 @@
+
+{
+  "hero": {
+    "headline": "BarterNet — Trade Skills, Services, and More with Ease",
+    "subheadline": "Offer what you have, find what you need—AI connects you instantly.",
+    "cta1": "Get Started Free",
+    "cta2": "Explore Offers"
+  },
+  "offer": {
+    "title": "What We Offer",
+    "description": "BarterNet isn't just about skills—it's a marketplace for anything you can trade. List your expertise, rent out tools, or sell products. Need something? Let AI find it for you.",
+    "card1": {
+      "title": "Offer Anything",
+      "description": "Share your skills (e.g., coding), rent out items (e.g., a camera), or sell products (e.g., artwork)."
+    },
+    "card2": {
+      "title": "Find What You Need",
+      "description": "Search for skills, services, or products—AI matches you with the perfect fit."
+    },
+    "card3": {
+      "title": "Flexible Exchange",
+      "description": "Pay with cash, barter with your skills, or offer something unique like equity."
+    }
+  },
+  "howItWorks": {
+    "title": "How BarterNet Works",
+    "step1": {
+      "title": "Sign Up & List",
+      "description": "Create a free account and post what you offer—skills, services, or products—or what you need."
+    },
+    "step2": {
+      "title": "AI Analyzes",
+      "description": "Our AI breaks down your project or request, identifying required skills, roles, or items."
+    },
+    "step3": {
+      "title": "Get Matches",
+      "description": "AI finds the best matches from our community, suggesting fair compensation (cash, barter, etc.)."
+    },
+    "step4": {
+      "title": "Connect & Trade",
+      "description": "Chat with your matches and finalize the deal—simple and seamless."
+    }
+  },
+  "features": {
+    "title": "Why Choose BarterNet?",
+    "feature1": {
+      "title": "AI-Powered Matching",
+      "description": "Smart technology finds exactly what you need."
+    },
+    "feature2": {
+      "title": "Flexible Compensation",
+      "description": "Cash, barter, or creative trades—your choice."
+    },
+    "feature3": {
+      "title": "Free to Start",
+      "description": "Get 5 free credits to explore matches."
+    },
+    "feature4": {
+      "title": "Global Community",
+      "description": "Connect with people worldwide, in your language."
+    }
+  },
+  "cta": {
+    "title": "Ready to Trade? Join BarterNet Today!",
+    "button": "Sign Up Now"
+  },
+  "footer": {
+    "about": "About Us",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "terms": "Terms of Service",
+    "language": "Language"
+  }
+}

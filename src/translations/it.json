@@ -1,0 +1,74 @@
+
+{
+  "hero": {
+    "headline": "BarterNet — Scambia abilità, servizi e altro con facilità",
+    "subheadline": "Offri ciò che hai, trova ciò di cui hai bisogno—l'IA ti connette istantaneamente.",
+    "cta1": "Inizia gratuitamente",
+    "cta2": "Esplora le offerte"
+  },
+  "offer": {
+    "title": "Cosa offriamo",
+    "description": "BarterNet non riguarda solo le abilità—è un mercato per tutto ciò che puoi scambiare. Elenca la tua competenza, affitta strumenti o vendi prodotti. Hai bisogno di qualcosa? Lascia che l'IA lo trovi per te.",
+    "card1": {
+      "title": "Offri qualsiasi cosa",
+      "description": "Condividi le tue abilità (es. programmazione), affitta oggetti (es. una fotocamera) o vendi prodotti (es. opere d'arte)."
+    },
+    "card2": {
+      "title": "Trova ciò di cui hai bisogno",
+      "description": "Cerca abilità, servizi o prodotti—l'IA ti abbina con la corrispondenza perfetta."
+    },
+    "card3": {
+      "title": "Scambio flessibile",
+      "description": "Paga in contanti, baratta con le tue abilità o offri qualcosa di unico come quote societarie."
+    }
+  },
+  "howItWorks": {
+    "title": "Come funziona BarterNet",
+    "step1": {
+      "title": "Registrati ed elenca",
+      "description": "Crea un account gratuito e pubblica ciò che offri—abilità, servizi o prodotti—o ciò di cui hai bisogno."
+    },
+    "step2": {
+      "title": "L'IA analizza",
+      "description": "La nostra IA scompone il tuo progetto o richiesta, identificando le abilità, i ruoli o gli articoli richiesti."
+    },
+    "step3": {
+      "title": "Ottieni corrispondenze",
+      "description": "L'IA trova le migliori corrispondenze dalla nostra comunità, suggerendo un compenso equo (contanti, baratto, ecc.)."
+    },
+    "step4": {
+      "title": "Connettiti e scambia",
+      "description": "Chatta con le tue corrispondenze e finalizza l'accordo—semplice e senza intoppi."
+    }
+  },
+  "features": {
+    "title": "Perché scegliere BarterNet?",
+    "feature1": {
+      "title": "Abbinamento basato su IA",
+      "description": "La tecnologia intelligente trova esattamente ciò di cui hai bisogno."
+    },
+    "feature2": {
+      "title": "Compenso flessibile",
+      "description": "Contanti, baratto o scambi creativi—la scelta è tua."
+    },
+    "feature3": {
+      "title": "Gratuito per iniziare",
+      "description": "Ottieni 5 crediti gratuiti per esplorare le corrispondenze."
+    },
+    "feature4": {
+      "title": "Comunità globale",
+      "description": "Connettiti con persone in tutto il mondo, nella tua lingua."
+    }
+  },
+  "cta": {
+    "title": "Pronto a scambiare? Unisciti a BarterNet oggi!",
+    "button": "Iscriviti ora"
+  },
+  "footer": {
+    "about": "Chi siamo",
+    "faq": "FAQ",
+    "contact": "Contatto",
+    "terms": "Termini di servizio",
+    "language": "Lingua"
+  }
+}

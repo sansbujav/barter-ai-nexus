@@ -1,0 +1,74 @@
+
+{
+  "hero": {
+    "headline": "BarterNet — Tausche Fähigkeiten, Dienstleistungen und mehr mit Leichtigkeit",
+    "subheadline": "Biete an, was du hast, finde, was du brauchst—KI verbindet dich sofort.",
+    "cta1": "Kostenlos starten",
+    "cta2": "Angebote erkunden"
+  },
+  "offer": {
+    "title": "Was wir bieten",
+    "description": "BarterNet ist nicht nur für Fähigkeiten—es ist ein Marktplatz für alles, was du tauschen kannst. Liste deine Expertise, vermiete Werkzeuge oder verkaufe Produkte. Brauchst du etwas? Lass die KI es für dich finden.",
+    "card1": {
+      "title": "Alles anbieten",
+      "description": "Teile deine Fähigkeiten (z.B. Programmieren), vermiete Gegenstände (z.B. eine Kamera) oder verkaufe Produkte (z.B. Kunstwerke)."
+    },
+    "card2": {
+      "title": "Finde, was du brauchst",
+      "description": "Suche nach Fähigkeiten, Dienstleistungen oder Produkten—KI verbindet dich mit der perfekten Übereinstimmung."
+    },
+    "card3": {
+      "title": "Flexibler Austausch",
+      "description": "Bezahle mit Bargeld, tausche mit deinen Fähigkeiten oder biete etwas Einzigartiges wie Eigenkapital an."
+    }
+  },
+  "howItWorks": {
+    "title": "Wie BarterNet funktioniert",
+    "step1": {
+      "title": "Anmelden & Eintragen",
+      "description": "Erstelle ein kostenloses Konto und veröffentliche, was du anbietest—Fähigkeiten, Dienstleistungen oder Produkte—oder was du brauchst."
+    },
+    "step2": {
+      "title": "KI Analysiert",
+      "description": "Unsere KI analysiert dein Projekt oder deine Anfrage und identifiziert benötigte Fähigkeiten, Rollen oder Gegenstände."
+    },
+    "step3": {
+      "title": "Erhalte Übereinstimmungen",
+      "description": "KI findet die besten Übereinstimmungen aus unserer Community und schlägt faire Vergütung vor (Bargeld, Tausch, etc.)."
+    },
+    "step4": {
+      "title": "Verbinden & Handeln",
+      "description": "Chatte mit deinen Übereinstimmungen und schließe den Deal ab—einfach und nahtlos."
+    }
+  },
+  "features": {
+    "title": "Warum BarterNet wählen?",
+    "feature1": {
+      "title": "KI-gestütztes Matching",
+      "description": "Intelligente Technologie findet genau das, was du brauchst."
+    },
+    "feature2": {
+      "title": "Flexible Vergütung",
+      "description": "Bargeld, Tausch oder kreative Handel—deine Wahl."
+    },
+    "feature3": {
+      "title": "Kostenloser Start",
+      "description": "Erhalte 5 kostenlose Credits, um Übereinstimmungen zu erkunden."
+    },
+    "feature4": {
+      "title": "Globale Gemeinschaft",
+      "description": "Verbinde dich mit Menschen weltweit in deiner Sprache."
+    }
+  },
+  "cta": {
+    "title": "Bereit zum Handeln? Tritt BarterNet noch heute bei!",
+    "button": "Jetzt anmelden"
+  },
+  "footer": {
+    "about": "Über uns",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "terms": "Nutzungsbedingungen",
+    "language": "Sprache"
+  }
+}

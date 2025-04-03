@@ -1,73 +1,92 @@
-# Welcome to your Lovable project
 
-## Project info
+# BarterNet Landing Page
 
-**URL**: https://lovable.dev/projects/01ce4c6f-071c-4812-9cbf-b9e8f6891c04
+A modern Next.js landing page for BarterNet, an AI-powered platform for trading skills, services, and products.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- Responsive design for all devices
+- Multilingual support (English, Georgian, German, Italian, French)
+- Modern animations and interactions using Framer Motion
+- Sleek, futuristic design inspired by Grok's landing page
+- Optimized performance and accessibility
 
-**Use Lovable**
+## Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/01ce4c6f-071c-4812-9cbf-b9e8f6891c04) and start prompting.
+- Next.js
+- React
+- Tailwind CSS
+- Framer Motion
+- next-intl for internationalization
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js 14.x or higher
+- npm or yarn
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1. Clone the repository:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+git clone https://github.com/yourusername/barternet-landing.git
+cd barternet-landing
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm install
+# or
+yarn install
+```
 
-**Use GitHub Codespaces**
+3. Run the development server:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## What technologies are used for this project?
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-This project is built with:
+## Internationalization
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+The landing page supports 5 languages:
+- English (default)
+- Georgian (ქართული)
+- German (Deutsch)
+- Italian (Italiano)
+- French (Français)
 
-## How can I deploy this project?
+Language selection is persisted in local storage for returning visitors. The language can be changed using the language switcher in the footer.
 
-Simply open [Lovable](https://lovable.dev/projects/01ce4c6f-071c-4812-9cbf-b9e8f6891c04) and click on Share -> Publish.
+## Project Structure
 
-## Can I connect a custom domain to my Lovable project?
+```
+/
+├── components/        # React components
+├── pages/             # Next.js pages
+├── public/            # Static assets
+├── styles/            # CSS styles
+└── translations/      # Localization files
+```
 
-Yes it is!
+## Deployment
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This project can be deployed on any platform that supports Next.js applications, such as Vercel, Netlify, or a traditional server setup.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Build for Production
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+## License
+
+This project is licensed under the MIT License.

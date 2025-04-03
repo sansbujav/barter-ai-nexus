@@ -1,0 +1,74 @@
+
+{
+  "hero": {
+    "headline": "BarterNet — Échangez des compétences, des services et plus en toute simplicité",
+    "subheadline": "Offrez ce que vous avez, trouvez ce dont vous avez besoin—l'IA vous connecte instantanément.",
+    "cta1": "Commencer gratuitement",
+    "cta2": "Explorer les offres"
+  },
+  "offer": {
+    "title": "Ce que nous offrons",
+    "description": "BarterNet n'est pas seulement pour les compétences—c'est un marché pour tout ce que vous pouvez échanger. Listez votre expertise, louez des outils ou vendez des produits. Besoin de quelque chose? Laissez l'IA le trouver pour vous.",
+    "card1": {
+      "title": "Offrir n'importe quoi",
+      "description": "Partagez vos compétences (par ex., codage), louez des objets (par ex., un appareil photo) ou vendez des produits (par ex., des œuvres d'art)."
+    },
+    "card2": {
+      "title": "Trouvez ce dont vous avez besoin",
+      "description": "Recherchez des compétences, des services ou des produits—l'IA vous met en relation avec le partenaire idéal."
+    },
+    "card3": {
+      "title": "Échange flexible",
+      "description": "Payez en espèces, échangez avec vos compétences ou offrez quelque chose d'unique comme des parts."
+    }
+  },
+  "howItWorks": {
+    "title": "Comment fonctionne BarterNet",
+    "step1": {
+      "title": "Inscrivez-vous et listez",
+      "description": "Créez un compte gratuit et publiez ce que vous offrez—compétences, services ou produits—ou ce dont vous avez besoin."
+    },
+    "step2": {
+      "title": "L'IA analyse",
+      "description": "Notre IA décompose votre projet ou demande, identifiant les compétences, rôles ou articles requis."
+    },
+    "step3": {
+      "title": "Obtenez des correspondances",
+      "description": "L'IA trouve les meilleures correspondances dans notre communauté, suggérant une compensation équitable (espèces, troc, etc.)."
+    },
+    "step4": {
+      "title": "Connectez-vous et échangez",
+      "description": "Discutez avec vos correspondances et finalisez l'accord—simple et sans heurt."
+    }
+  },
+  "features": {
+    "title": "Pourquoi choisir BarterNet?",
+    "feature1": {
+      "title": "Mise en relation par IA",
+      "description": "La technologie intelligente trouve exactement ce dont vous avez besoin."
+    },
+    "feature2": {
+      "title": "Compensation flexible",
+      "description": "Espèces, troc ou échanges créatifs—c'est votre choix."
+    },
+    "feature3": {
+      "title": "Gratuit pour commencer",
+      "description": "Obtenez 5 crédits gratuits pour explorer les correspondances."
+    },
+    "feature4": {
+      "title": "Communauté mondiale",
+      "description": "Connectez-vous avec des personnes du monde entier, dans votre langue."
+    }
+  },
+  "cta": {
+    "title": "Prêt à échanger? Rejoignez BarterNet aujourd'hui!",
+    "button": "S'inscrire maintenant"
+  },
+  "footer": {
+    "about": "À propos de nous",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "terms": "Conditions d'utilisation",
+    "language": "Langue"
+  }
+}

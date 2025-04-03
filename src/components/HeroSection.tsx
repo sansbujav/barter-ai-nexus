@@ -40,7 +40,7 @@ const HeroSection = ({ translations }) => {
       particle.style.top = `${y}%`;
       particle.style.width = `${size}px`;
       particle.style.height = `${size}px`;
-      particle.style.opacity = opacity;
+      particle.style.opacity = `${opacity}`; // Convert to string
       
       // Add animation with random duration
       const animationDuration = Math.random() * 10 + 5;
